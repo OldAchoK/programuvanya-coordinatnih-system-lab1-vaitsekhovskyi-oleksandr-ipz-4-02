@@ -163,4 +163,18 @@ def circular_distance(first_point: "SphericalPoint", second_point: "SphericalPoi
   <li>Встановити Python 3.12.6</li>
   <li>Завантажити у віртуально середовище Numpy: pip install numpy</li>
   <li>Запуск скрипта</li>
-</ul>встановити
+</ul>  
+<h3>Перевірка коректності</h3>  
+<p>
+	<img src="./imgs/3_1.png" align="center">
+</p>  
+<h4 align='center'>Рисунок 3.1 - Перевірка правильності конвертації</h4>  
+<p>Як можна побачити, із попровкою на похибку конвертації чисел з плаваючею точкою конвертація вірна</p>
+<p>
+	<img src="./imgs/3_2.png" align="center">
+</p>  
+<h4 align='center'>Рисунок 3.3 - Результати обчислень відстаней</h4>  
+<p>
+	<img src="./imgs/3_3.png" align="center">
+</p>  
+<h4 align='center'>Рисунок 3.3 - Результати обчислень відстаней</h4>  
