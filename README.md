@@ -171,10 +171,23 @@ def circular_distance(first_point: "SphericalPoint", second_point: "SphericalPoi
 <h4 align='center'>Рисунок 3.1 - Перевірка правильності конвертації</h4>  
 <p>Як можна побачити, із попровкою на похибку конвертації чисел з плаваючею точкою конвертація вірна</p>
 <p align="center">
-	<img src="./imgs/3_2.png">
+	<img src="./imgs/3_2.png" height='30%'>
 </p>  
-<h4 align='center'>Рисунок 3.3 - Результати обчислень відстаней</h4>  
+<h4 align='center'>Рисунок 3.2 - Результати обчислень відстаней</h4>  
 <p align="center">
-	<img src="./imgs/3_3.png">
+	<img src="./imgs/3_3.png" height='50%'>
 </p>  
 <h4 align='center'>Рисунок 3.3 - Результати обчислень відстаней</h4>  
+<h3>Результати аналізу продуктивності</h3>  
+<p align="center">
+	<img src="./imgs/4_1.png">
+</p>  
+<h4 align='center'>Рисунок 4.1 - Результати тестування</h4>  
+<p>Тепер напишемо таблицю із тестами та їх результатами:</p>  
+
+| Type					| 2D	  | 3D		 |
+|-----------------------|---------|----------|
+| Polar					| 0.107s  | -		 |
+| Cartesian				| 0.075s  | 0.101s	 |
+| Spherical direct		| -		  | 0.144s   |
+| Spherical circular	| -		  | 0.114s	 |
